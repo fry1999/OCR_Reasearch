@@ -1,0 +1,7 @@
+typing
+python-dotenv
+pandas
+openai
+langchain
+google-api-core
+google-cloud-documentai
