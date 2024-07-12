@@ -1,7 +1,8 @@
 # invoice_gpt.py
 
 import json
-from langchain.llms import OpenAI
+import langchain.llms
+from openai import OpenAI
 from langchain.prompts import PromptTemplate 
 
 

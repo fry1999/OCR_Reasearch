@@ -2,7 +2,7 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 from ocr_process import InvoiceOCR
-from chatgpt import InvoiceGPT
+from invoice_gpt import InvoiceGPT
 
 if __name__ == '__main__' :
     dotenv_path = join(dirname(__file__), '.env')
