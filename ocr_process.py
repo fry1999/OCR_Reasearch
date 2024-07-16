@@ -1,5 +1,3 @@
-# ocr_process.py
-
 import os
 from typing import Optional, Sequence
 from google.api_core.client_options import ClientOptions
@@ -132,3 +130,8 @@ class InvoiceOCR(object):
             text[int(segment.start_index) : int(segment.end_index)]
             for segment in layout.text_anchor.text_segments
         )
+
+
+
+
+

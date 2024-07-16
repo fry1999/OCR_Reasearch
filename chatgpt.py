@@ -1,14 +1,11 @@
-# invoice_gpt.py
-
 import json
-import langchain.llms
-from openai import OpenAI
+from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate 
 
 
 class InvoiceGPT(object):
-    # gpt-3.5-turbo
-    def __init__(self, temperature = 0 , model_name = "gpt-3.5-turbo"):
+    
+    def __init__(self, temperature = 0 , model_name = "gpt-3.5-turbo-16k"):
         self.name = 'InvoiceGPT'
         self.model_name = model_name
         self.temperature = temperature

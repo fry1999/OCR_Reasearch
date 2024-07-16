@@ -2,8 +2,8 @@
 
 ## Commands
 ```shell
-python3 -m venv invoice_ocr
-source invoice_ocr/bin/activate
+python3 -m venv .
+source /bin/activate
 ```
 
 run:
